@@ -22,6 +22,18 @@ The ESP32 communicates with a laptop through **USB serial communication**. Comma
 | 9 Red LEDs | 16, 17, 18, 19, 21, 23, 25, 26, 27 |
 | Green Safety LED | 22 |
 
+### Circuit Configuration
+GPIO16 ── 330Ω ──>|── GND   (Red LED 1)
+GPIO17 ── 330Ω ──>|── GND   (Red LED 2)
+GPIO18 ── 330Ω ──>|── GND   (Red LED 3)
+GPIO19 ── 330Ω ──>|── GND   (Red LED 4)
+GPIO21 ── 330Ω ──>|── GND   (Red LED 5)
+GPIO23 ── 330Ω ──>|── GND   (Red LED 6)
+GPIO25 ── 330Ω ──>|── GND   (Red LED 7)
+GPIO26 ── 330Ω ──>|── GND   (Red LED 8)
+GPIO27 ── 330Ω ──>|── GND   (Red LED 9)
+GPIO22 ── 330Ω ──>|── GND   (Green Safety LED)
+
 ## Technologies and Concepts
 
 **PlatformIO + Arduino Framework**
